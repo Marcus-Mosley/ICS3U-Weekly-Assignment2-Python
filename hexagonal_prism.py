@@ -12,9 +12,9 @@ def main():
     # This function calculates the surface area and volume
 
     # Input
-    base_edge = int(input("Enter Length of the Base Edge of the Hexagonal"
+    base_edge = float(input("Enter Length of the Base Edge of the Hexagonal"
                           " Prism (mm): "))
-    height = int(input("Enter Height of the Hexagonal Prism (mm): "))
+    height = float(input("Enter Height of the Hexagonal Prism (mm): "))
 
     # Process
     surface_area = 6 * base_edge * height + 3 * math.sqrt(3) * base_edge**2
