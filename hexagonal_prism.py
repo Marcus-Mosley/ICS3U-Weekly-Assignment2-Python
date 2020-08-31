@@ -13,7 +13,7 @@ def main():
 
     # Input
     base_edge = float(input("Enter Length of the Base Edge of the Hexagonal"
-                          " Prism (mm): "))
+                            " Prism (mm): "))
     height = float(input("Enter Height of the Hexagonal Prism (mm): "))
 
     # Process
@@ -21,6 +21,7 @@ def main():
     volume = (3 * math.sqrt(3)) / 2 * base_edge**2 * height
 
     # Output
+    print("")
     print("If a hexagonal prism has a base edge length of {0}mm, and a height"
           " of {1}mm: ".format(base_edge, height))
     print("")
